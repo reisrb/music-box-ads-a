@@ -1,21 +1,13 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import api from '../api';
 
+import ItemMusica from '../components/ItemMusica';
+import Menu from '../components/Menu';
+
 function Musicas() {
-  
+
   const [listaMusicas, setListaMusicas] = useState([]);
-  
-  // function listar() {
-  //   //get() é a mesma coisa que o -> api.get("/")
-  //   api.get().then(res => {
-  //     console.log(res);
-  //     console.log("Dados da API", res.data);
-  //     setListaMusicas(res.data);
-  //   }).catch(erro => {
-  //     console.log(erro);
-  //   })
-  // }
 
   useEffect(() => {
     api.get().then(res => {
@@ -25,18 +17,33 @@ function Musicas() {
     })
   }, [])
 
-  return(
+  return (
     <>
-      <h1>Lista de músicas</h1>
-      {/* <button onClick={listar}>Listar músicas</button> */}
-      {
-        listaMusicas.map(musica => (
-          <div key={musica.id}>
-            <h2>Nome da música: {musica.nome}</h2>
-            <h2>Artista da música: {musica.artista}</h2>
-          </div>
-        ))
-      }
+      <Menu />
+      <div className="container">
+        <div className="filter">
+          <button className="btn">Adicionar</button>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="music-boxes">
+
+          {
+            listaMusicas.map(musica => (
+              <>
+                <ItemMusica
+                  nome={musica.nome}
+                  artista={musica.artista}
+                  ano={musica.ano}
+                  categoria={musica.genero}
+                />
+              </>
+            ))
+          }
+
+        </div>
+      </div>
     </>
   );
 }
