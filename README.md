@@ -35,10 +35,9 @@ npm install
 npm start
 ```
 #
-## Arquitetura do projeto **(Versão 1)**
+## Arquitetura do projeto **(Versão 2)**
 
-![Screenshot from 2022-09-25 16-59-37](https://user-images.githubusercontent.com/53583561/192162858-4bcf3b1e-def9-4fe0-88e9-9e901c90ae43.png)
-
+![image](https://user-images.githubusercontent.com/53583561/193896770-592ab4fc-3a47-4c09-920e-92d9351ce8e8.png)
 
 #
 
