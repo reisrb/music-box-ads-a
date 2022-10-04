@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="i0pTCXeIQb-E2TddnQIm" name="Page-1">
-        <mxGraphModel dx="1700" dy="633" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1776" dy="565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -95,11 +95,33 @@
                 <mxCell id="28" value="pages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=24;" parent="1" vertex="1">
                     <mxGeometry x="-614" y="485" width="148" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="32" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-446" y="405"/>
+                            <mxPoint x="-446" y="371"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="32" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-446" y="405"/>
+                            <mxPoint x="-446" y="425"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="32" value="components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=24;" parent="1" vertex="1">
                     <mxGeometry x="-614" y="375" width="148" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;span&gt;Musicas&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=24;" parent="1" vertex="1">
-                    <mxGeometry x="-405" y="485" width="251" height="60" as="geometry"/>
+                <mxCell id="33" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Musicas&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="-420.09" y="492.5" width="188.25" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Menu&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="-418" y="350" width="175.7" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;ItemMusica&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="-420.09" y="403" width="179.88" height="43" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
