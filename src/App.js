@@ -2,8 +2,8 @@ import React from 'react';
 
 import Musicas from './pages/Musicas';
 
-import "./html-css-template/css/reset.css";
-import "./html-css-template/css/style.css";
+import "./assets/css/reset.css";
+import "./assets/css/style.css";
 
 function App() {
   return (

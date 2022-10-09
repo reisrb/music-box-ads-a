@@ -1,7 +1,7 @@
 import React from 'react';
 
-import deleteIcon from '../html-css-template/imagens/delete-icon.png';
-import editIcon from '../html-css-template/imagens/edit-icon.png';
+import deleteIcon from '../assets/imagens/delete-icon.png';
+import editIcon from '../assets/imagens/edit-icon.png';
 
 function ItemMusica(props) {
   return (
