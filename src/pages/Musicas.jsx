@@ -31,14 +31,15 @@ function Musicas() {
 
           {
             listaMusicas.map(musica => (
-              <>
-                <ItemMusica
-                  nome={musica.nome}
-                  artista={musica.artista}
-                  ano={musica.ano}
-                  categoria={musica.genero}
-                />
-              </>
+              <ItemMusica
+                key={musica.id}
+                nome={musica.nome}
+                artista={musica.artista}
+                ano={musica.ano}
+                categoria={musica.genero}
+                capa={musica.imagem}
+                id={musica.id}
+              />
             ))
           }
 
