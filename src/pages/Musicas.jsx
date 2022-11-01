@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-
 import api from '../api';
 
 import ItemMusica from '../components/ItemMusica';
-import Menu from '../components/Menu';
 
+import { useNavigate } from 'react-router-dom';
 function Musicas() {
-
+  const navigate = useNavigate();
   const [listaMusicas, setListaMusicas] = useState([]);
 
   useEffect(() => {
@@ -19,10 +18,10 @@ function Musicas() {
 
   return (
     <>
-      <Menu />
+      {/* <Menu /> */}
       <div className="container">
         <div className="filter">
-          <button className="btn">Adicionar</button>
+          <button className="btn" onClick={() => navigate("/adicionar")}>Adicionar</button>
         </div>
       </div>
 

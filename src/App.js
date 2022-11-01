@@ -1,14 +1,15 @@
 import React from 'react';
-
-import Musicas from './pages/Musicas';
+import Rotas from './routes';
 
 import "./assets/css/reset.css";
 import "./assets/css/style.css";
+import Menu from './components/Menu';
 
 function App() {
   return (
     <>
-      <Musicas />
+      <Menu />
+      <Rotas />
     </>
   );
 }
